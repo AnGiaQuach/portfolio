@@ -1,0 +1,19 @@
+.swiper {
+  width: 86rem;
+  height: 14.375rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  user-select: none;
+  border: 1px solid #c1c1c1;
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+.ImageContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.ImageContainer img {
+  display: block;
+}
+
+.AboutDescription {
+  width: 50rem;
+  margin-top: 7rem;
+  margin-left: 5rem;
+  font-size: 3rem;
+}

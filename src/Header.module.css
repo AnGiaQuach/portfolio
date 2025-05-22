@@ -1,0 +1,47 @@
+.Navbar {
+  height: 5rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.NavbarContainer {
+  width: 45rem;
+  height: 100%;
+  display: flex;
+}
+
+.NavbarContainer a {
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.NavbarContainer > a > div {
+  font-size: 1.375rem;
+  margin: 0;
+  text-decoration: none;
+}
+
+.HomeLink:hover {
+  color: white;
+  background-color: #2e2c2a;
+}
+
+.AboutLink:hover {
+  color: white;
+  background-color: #f41919;
+}
+
+.ContactLink:hover {
+  color: white;
+  background-color: #2e2c2a;
+}

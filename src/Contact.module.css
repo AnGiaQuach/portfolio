@@ -1,0 +1,34 @@
+.ContactContainer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 2px solid #ef88ad;
+}
+.ContactCard {
+  width: 100vw;
+  height: 5.5rem;
+  padding-left: 5rem;
+  border-bottom: 2px solid #ef88ad;
+  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.ContactCard > a {
+  text-decoration: none;
+  color: inherit;
+}
+.githubLink:hover {
+  background-color: #212020;
+  color: white;
+}
+.instaLink:hover {
+  background-color: #533b4d;
+}
+.emailLink:hover {
+  background-color: #0837ff;
+  color: white;
+}
