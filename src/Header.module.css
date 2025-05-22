@@ -32,16 +32,19 @@
 }
 
 .HomeLink:hover {
+  font-weight: bold;
   color: white;
   background-color: #2e2c2a;
 }
 
 .AboutLink:hover {
+  font-weight: bold;
   color: white;
   background-color: #f41919;
 }
 
 .ContactLink:hover {
+  font-weight: bold;
   color: white;
   background-color: #2e2c2a;
 }

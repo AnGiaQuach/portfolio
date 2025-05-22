@@ -8,11 +8,13 @@
   width: 100vw;
   height: 5.5rem;
   padding-left: 5rem;
+  padding-right: 5rem;
   border-bottom: 2px solid #ef88ad;
   font-size: 2rem;
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   transition: background-color 0.3s ease-in-out;
   box-sizing: border-box;
 }
@@ -31,4 +33,10 @@
 .emailLink:hover {
   background-color: #0837ff;
   color: white;
+}
+
+.ArrowIcon {
+  width: 3rem;
+  stroke: white;
+  stroke-width: 2;
 }
