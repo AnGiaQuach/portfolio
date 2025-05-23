@@ -4,16 +4,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./swipe.css";
+import { useEffect, useState } from "react";
 
 export function App() {
+  const [slidesPerView, setSlidesPerView] = useState(4);
+  window.addEventListener("resize", () => {
+    if (window.innerWidth <= 450) {
+      setSlidesPerView(2);
+    }
+    if (window.innerWidth > 450) {
+      setSlidesPerView(4);
+    }
+  });
   return (
     <div className={styles.AppContainer}>
       <Header />
       <div className={styles.MainHeader}>antquacking</div>
       <div className={styles.SwiperContainer}>
         <Swiper
-          slidesPerView={4}
-          spaceBetween={10}
+          slidesPerView={slidesPerView}
+          spaceBetween={5}
           pagination={{
             clickable: true,
           }}

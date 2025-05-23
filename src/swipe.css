@@ -1,11 +1,11 @@
 .swiper {
-  width: 86rem;
-  height: 14.375rem;
+  width: calc(100vw * 80 / 100);
+  aspect-ratio: 4 / 1;
 }
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: calc(100vw / 80);
   background: #fff;
 
   /* Center slide text vertically */

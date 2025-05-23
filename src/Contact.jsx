@@ -61,10 +61,7 @@ export function Contact() {
               "https://www.instagram.com/an_thich_uong_latte/")
           }
         >
-          <a
-            style={{ color: "deeppink" }}
-            href="https://www.instagram.com/an_thich_uong_latte/"
-          >
+          <a href="https://www.instagram.com/an_thich_uong_latte/">
             https://www.instagram.com/an_thich_uong_latte/
           </a>
           <svg
