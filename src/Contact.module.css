@@ -41,6 +41,7 @@
 .ContactCard > a {
   text-decoration: none;
   color: inherit;
+  width: fit-content;
 }
 .githubLink:hover {
   background-color: #212020;

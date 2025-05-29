@@ -29,7 +29,15 @@ export function App() {
           }}
           className={styles.Swiper}
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>
+            <a href="https://github.com/AnGiaQuach/dnd-system">
+              <span>dnd-system</span>
+              <div
+                aria-label="animate-circle"
+                className={`animate-circle`}
+              ></div>
+            </a>
+          </SwiperSlide>
           <SwiperSlide>Slide 2</SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
