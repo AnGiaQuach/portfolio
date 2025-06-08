@@ -38,7 +38,15 @@ export function App() {
               ></div>
             </a>
           </SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>
+            <a href="https://github.com/AnGiaQuach/instaStory">
+              <span>instaStory</span>
+              <div
+                aria-label="animate-circle"
+                className={`animate-circle`}
+              ></div>
+            </a>
+          </SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
           <SwiperSlide>Slide 5</SwiperSlide>
