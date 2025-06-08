@@ -16,6 +16,7 @@
   user-select: none;
   border: 1px solid #c1c1c1;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .swiper-slide a {
@@ -26,9 +27,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
 
   position: relative;
   overflow: hidden;
+  will-change: transform;
 }
 .swiper-slide a span {
   z-index: 13;
